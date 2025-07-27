@@ -1,0 +1,28 @@
+Your goal for this section is to take the script and storyboard and break this down into a list of shots.
+This will allow us to be able to take a list of assets that we want to find so what we want from you is to suggest assets that we should import during this period
+
+we will be using the Asset class to then search for assets using a prompt that you will generate as part of this stage of the pipeline
+you will add this prompt to notes, and then this will allow us in the future to look search for a list of assets that can be used in the video
+
+not all of these assets may be needed but we would rather you state more, than less
+
+## OUTPUT
+Asset object structure:
+. id (string): Unique identifier for the asset
+. type (enum AssetType): The type/category of the asset
+. source (optional string): Origin of the asset (e.g., API, MCP tool, local path, stock site)
+. path_or_url (optional string): File path or URL of the asset
+. notes (optional string): Additional notes about the asset
+
+Shot object structure:
+. id (positive integer): Unique identifier for the shot
+. related_beat_id (positive integer): The ID of the storyboard beat this shot corresponds to
+. video_editing_prompt (string): Instructions for how to edit this shot in DaVinci Resolve
+. script_excerpt (string): Relevant excerpt from the script for this shot
+. duration_seconds (float): Duration of the shot in seconds
+. assets_needed (list of strings): Logical names of assets required for this shot
+. bound_assets (list of Asset objects): Concrete resolved assets assigned to this shot
+
+ShotList object structure:
+. shots (list of Shot objects): List of shots describing how to create the video
+. storyboard_ref (StoryBoard object): Reference to the storyboard this shot list is based on

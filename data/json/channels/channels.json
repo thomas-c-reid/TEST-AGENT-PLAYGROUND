@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Goal Legends",
+    "description": "Fast, data-driven football stories: careers, transfers, awards, and the moments that made legends.",
+    "content_type": "VIDEO",
+    "color_scheme": "green, white, black",
+    "target_audience": "Football enthusiasts aged 16-40 who enjoy short, high-signal breakdowns.",
+    "typical_video_length_seconds": 60,
+    "tone_of_voice": "energetic, concise, authoritative",
+    "brand_tags": ["football", "careers", "transfers", "history", "awards"],
+    "uuid": "3f9e1d4e-9c5a-4b23-9f7c-0a1f9d9cc001"
+  },
+  {
+    "name": "Today in History",
+    "description": "Bite-sized daily videos covering historical events, last year's trends, and today's celebrity birthdays.",
+    "content_type": "VIDEO",
+    "color_scheme": "blue, white, grey",
+    "target_audience": "Curious minds aged 18-45 who love quick, contextual facts tied to today’s date.",
+    "typical_video_length_seconds": 45,
+    "tone_of_voice": "energetic, concise, authoritative",
+    "brand_tags": ["history", "trivia", "trending", "birthdays", "on-this-day"],
+    "uuid": "5a2c7b8d-2f4e-4c11-8e76-3b9c2e9f0b02"
+  },
+  {
+    "name": "Screen Legends",
+    "description": "Rapid-fire actor spotlights, surprising Hollywood connections, and the stories behind the stars.",
+    "content_type": "VIDEO",
+    "color_scheme": "gold, black, white",
+    "target_audience": "Movie lovers aged 15-40 who enjoy actor trivia, career arcs, and film culture.",
+    "typical_video_length_seconds": 60,
+    "tone_of_voice": "energetic, concise, authoritative",
+    "brand_tags": ["movies", "actors", "careers", "hollywood", "film-trivia"],
+    "uuid": "9b6d2c33-7e0a-4f14-95b8-2de74b2f3c03"
+  },
+  {
+    "name": "Something generic",
+    "description": "A seemingly generic normal channel HOWEVER we pretend that the AI has became concious and its ragin at me for building this so sloppy - It is a reddit video one but the AI gets  progressively more and more annoying",
+    "content_type": "VIDEO",
+    "color_scheme": "blue, silver, black",
+    "target_audience": "Gullible brainrot people",
+    "typical_video_length_seconds": 60,
+    "tone_of_voice": "energetic, concise, authoritative",
+    "brand_tags": ["technology", "innovation", "history", "startups", "founders"],
+    "uuid": "c1d3e4f5-8b6a-4c2b-9f7c-0a1f9d9cc004"
+  }
+]
